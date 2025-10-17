@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Drill 2</title>
+
+	<!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style type="text/css">
+	body{
+	    font-family: Lilita One;
+	    background-image: url(https://i.pinimg.com/1200x/01/eb/8b/01eb8b6396b8b828cb85d3d8e07ce933.jpg);
+	    background-size: cover; 
+	}
+	input[type='text'] {
+		background-color: ;
+		width: 95%;
+	}
+	textarea {
+		background-color: ;
+		width: 95%;
+	}
+	form {
+	    padding: 10px;
+	    margin:  50px auto;
+	    border-radius: 30px;
+	    background-color: whitesmoke;
+	    width: 35%;
+
+
+	}
+
+	legend {
+		background-color: grey;
+	    border-radius: 5px; 
+	    color: whitesmoke;
+	    padding: 5px 10px;
+	}	
+
+	select {
+		width: 95%;
+	}
+	
+	input[type=submit] {
+		color: ;
+		width: 95%;
+		font-style:bold;
+		font-weight: 400;
+	}
+
+	input[type=email] {
+		color: ;
+		width: 95%;
+ 
+
+
+	}
+
+</style>
+</head>
+<body>
+<form>	
+	<center> <h1> Music Recommendation </h1> </center>
+	<fieldset> 
+	  	
+	  <label for="name"> Your Name:</label> <br>
+	  <input type="text" id="name" name="name" maxlength="40" placeholder="Enter your fullname"><br><br>
+
+
+	  <label for="email">Your Email:</label> <br>
+	  <input type="email" id="email" name="Email" placeholder=" Enter your Email"><br><br>
+
+	  <label for="Title">Recommended Music Title:</label> <br>
+	  <input type="text" id="title" name="Telephone"><br><br>
+
+	  <label for="instructions">Why do you recommend it?:</label><br>
+	  <textarea id="reco" name="Reco" maxlength="400" rows="4" cols="40"></textarea> <br>
+
+	  <br> Genres (Sellect All that Apply)
+	  <br> <input type="checkbox" id="Pop Music" name="Pop" value="pop">
+      <label for="Pop Music"> Pop Music</label>
+
+      <input type="checkbox" id="Kpop" name="korean" value="Korean">
+      <label for="Kpop">Kpop</label>
+
+      <input type="checkbox" id="Jazz" name="jaz" value="jazz">
+      <label for="Jazz">Jazz</label>
+
+      <input type="checkbox" id="Rock" name="rok" value="rock">
+      <label for="Rock">Rock</label>
+
+	  <input type="checkbox" id="Classical" name="Classic" value="classic">
+      <label for="Classical">Classical</label>
+
+
+     <br> <br> Rate the song
+     <br>
+     <input type="radio" id="one" name="RATE" value="One">
+     <label for="one">1</label>
+
+     <input type="radio" id="two" name="RATE" value="Two">
+     <label for="multigrain">2</label>
+
+     <input type="radio" id="three" name="RATE" value="Three">
+     <label for="cheesecrust">3</label>
+
+     <input type="radio" id="four" name="RATE" value="Four">
+     <label for="glutenfree">4</label>
+
+     <input type="radio" id="five" name="RATE" value="Five">
+     <label for="glutenfree">5 (Best)</label> <br>
+
+     <br> Where did you hear it? <br>
+
+     <select id="quantity" name="quantity">
+       <option value="Spot">Spotify</option>
+       <option value="YT">Youtube</option>
+       <option value="Apple">Apple</option>
+       <option value="Amazon">Amazon</option>
+       
+  	 </select>
+   <br>
+  <br><br><b><input type="Submit" name="Submit">
+</fieldset> 
+</form>
+
+</body>
+</html>
